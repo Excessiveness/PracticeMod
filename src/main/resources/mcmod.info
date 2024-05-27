@@ -1,0 +1,16 @@
+[
+{
+  "modid": "practicemod",
+  "name": "Practice Mod",
+  "description": "a Practice mod that helps you with /prac in linkcraft!.",
+  "version": "1.0",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Indifferenza"],
+  "credits": "Forge and FML",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
