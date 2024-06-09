@@ -16,7 +16,7 @@ I've developed a mod that could help you while practicing in Linkcraft minecraft
 
 ##  
 
-Once you download the mod, You need to enable it using the command `/pm on` In-game.
+Once you download the mod, You need to enable it using the command `/pm on` In-game. (Or you can just press the keybind that comes with the mod)
 
 After running `/pm on`, A Rose red dye will spawn in your second hotbar, it won't affect your items in that spot.
 
