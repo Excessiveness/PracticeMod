@@ -1,6 +1,7 @@
 package com.practicemod;
 
 import com.practicemod.listeners.InventoryCheckListener;
+import com.practicemod.events.Keybind;
 import com.practicemod.commands.PracticeCommand;
 import com.practicemod.items.CustomItemDye;
 import net.minecraftforge.client.ClientCommandHandler;
@@ -36,6 +37,7 @@ public class PracticeMod {
         MinecraftForge.EVENT_BUS.register(new InventoryCheckListener());
 
         ClientCommandHandler.instance.registerCommand(new PracticeCommand());
+        MinecraftForge.EVENT_BUS.register(new Keybind());
 
         MinecraftForge.EVENT_BUS.register(this);
     }
