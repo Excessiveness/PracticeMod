@@ -11,7 +11,7 @@ import org.lwjgl.input.Keyboard;
 
 public class Keybind {
 
-    private static boolean IsOn = false;
+    public static boolean IsOn = false;
 
     private final KeyBinding PracticeModKeybind = new KeyBinding("Practice Key", Keyboard.KEY_0, "PracticeMod");
 
