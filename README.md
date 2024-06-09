@@ -11,6 +11,9 @@ I've developed a mod that could help you while practicing in Linkcraft minecraft
 ### Commands
 - /pm <on|off>
 
+### Keybinds
+- "0" is the default keybind, you can change it to whatever keybind that is convenient to you
+
 ##  
 
 Once you download the mod, You need to enable it using the command `/pm on` In-game.
