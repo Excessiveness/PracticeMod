@@ -4,7 +4,7 @@
 
 Hey!
 
-I've developed a mod that could help you while practicing in Linkcraft minecraft server with just 1 right click!
+I've developed a mod that could help you while practicing in Linkcraft minecraft server with just 1 click!
 
 ## Features
 
