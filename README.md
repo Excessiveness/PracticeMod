@@ -29,3 +29,6 @@ After running `/pm on`, A Rose red dye will spawn in your second hotbar, it won'
 - If your `/pm` command is on and you left the server, it will get switched to off.
 - If the Rose red dye disappeared while your `/pm` is on, hover over the second hotbar to make it appear again.
 - The Rose red dye is a client side item, meaning you cannot throw it or use it on armor, items or mobs.
+
+  ## Guide on How to use the mod:
+https://www.youtube.com/watch?v=HNpCVO4J1zk
