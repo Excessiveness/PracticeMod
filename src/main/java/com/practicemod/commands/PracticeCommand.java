@@ -1,6 +1,7 @@
 package com.practicemod.commands;
 
 import net.minecraft.command.CommandBase;
+import com.practicemod.events.Keybind;
 import com.practicemod.listeners.InventoryCheckListener;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
@@ -16,8 +17,8 @@ import java.util.List;
 
 public class PracticeCommand extends CommandBase {
 
-    private static boolean IsSinglePlayer = false;
-    private static boolean IsDifferentServer = false;
+    public static boolean IsSinglePlayer = false;
+    public static boolean IsDifferentServer = false;
 
     @Override
     public String getCommandName() {
@@ -45,7 +46,7 @@ public class PracticeCommand extends CommandBase {
         return true;
     }
 
-    private static boolean IsItOn = false;
+    public static boolean IsItOn = false;
 
     @Override
     public void processCommand(ICommandSender sender, String[] args) {
@@ -100,6 +101,7 @@ public class PracticeCommand extends CommandBase {
         IsSinglePlayer = false;
         IsDifferentServer = false;
         IsItOn = false;
+        Keybind.IsOn = false;
         PracticeMod.isPMCommandActive = false;
         InventoryCheckListener.prac = false;
     }
